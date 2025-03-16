@@ -6,7 +6,7 @@ pipeline{
 
     options{
         //Timeout counter start after agent machine is allocated
-        timeout(time:60, unit:'SECOND')
+        timeout(time: 60, unit: 'SECOND')
     }
 
     stages{
