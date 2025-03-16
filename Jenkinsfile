@@ -23,7 +23,8 @@ pipeline{
         }
 
         stage(RestartServer){
-            steps{sh "sudo systemctl restart httpd"
+            steps{
+                sh "sudo systemctl restart httpd"
             }
         }
     }
